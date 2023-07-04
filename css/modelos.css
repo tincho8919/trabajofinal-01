@@ -198,7 +198,9 @@ h2{
     margin-right: 250px;
     margin-top: 40px;
     
-    
+}
+.color{
+    background-color: black;
 }
 .boton0{
     position: none;
