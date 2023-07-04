@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     background-color: black;
-
+    
 }
 .ladonp{
     background-color: black;
@@ -18,7 +18,7 @@
 .moto1{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -31,7 +31,7 @@
 .moto2{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -43,7 +43,7 @@
 .moto3{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -55,7 +55,7 @@
 .moto4{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -67,7 +67,7 @@
 .moto5{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -79,7 +79,7 @@
 .moto6 {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -91,7 +91,7 @@
 .moto7{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -103,7 +103,7 @@
 .moto8{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -116,7 +116,7 @@
 .moto9{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -127,7 +127,7 @@
 .moto10{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -138,7 +138,7 @@
 .moto11{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -149,7 +149,7 @@
 .moto12{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -191,11 +191,10 @@
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 40px;
     
-    
+}
+.color{
+    background-color: black;
 }
 .boton0{
     position: none;

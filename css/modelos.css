@@ -21,7 +21,7 @@ h2{
 .moto1{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -34,7 +34,7 @@ h2{
 .moto2{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -46,7 +46,7 @@ h2{
 .moto3{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -58,7 +58,7 @@ h2{
 .moto4{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -70,7 +70,7 @@ h2{
 .moto5{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -82,7 +82,7 @@ h2{
 .moto6 {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -94,7 +94,7 @@ h2{
 .moto7{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -106,7 +106,7 @@ h2{
 .moto8{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -119,7 +119,7 @@ h2{
 .moto9{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -130,7 +130,7 @@ h2{
 .moto10{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -141,7 +141,7 @@ h2{
 .moto11{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -152,7 +152,7 @@ h2{
 .moto12{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
     box-shadow: 0px 0px 4px blue;
@@ -194,9 +194,6 @@ h2{
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 40px;
     
     
 }
@@ -295,6 +292,16 @@ h2{
 
 }
 
+.float{
+    
+}
+.floatiz{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    
+
+}
 .colormain{
     background-color:rgb(32, 31, 31);
 }
@@ -348,7 +355,13 @@ h2{
 .motos{
     display: flex;
     flex-direction: column;
+    align-content: end;
 
+}
+.floatiz{
+    display: flex;
+    flex-direction: column;
+    margin-top: 165px;
 }
 }
 @media (min-width: 768px ) {
