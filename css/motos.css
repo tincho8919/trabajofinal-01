@@ -193,9 +193,6 @@
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 40px;
     
 }
 .color{
@@ -203,6 +200,8 @@
 }
 .boton0{
     position: none;
+    text-align: center;
+    list-style: none;
     background-color: grey;
     font-size: 20px;
     width: 125px;
@@ -211,6 +210,8 @@
 }
 .boton1{
     position: none;
+    text-align: center;
+    list-style: none;
     background-color: grey;
     font-size: 20px;
     width: 125px;
@@ -222,6 +223,8 @@
 
 .boton2{
     position: none;
+    text-align: center;
+    list-style: none;
     background-color: grey;
     font-size: 20px;
     width: 125px;
@@ -233,6 +236,8 @@
 
 .boton3{
     position: none;
+    text-align: center;
+    list-style: none;
     background-color: grey;
     font-size: 20px;
     width: 125px;
@@ -243,6 +248,8 @@
 
 .boton4{
     position: none;
+    text-align: center;
+    list-style: none;
     background-color: grey;
     font-size: 20px;
     width: 125px;
@@ -253,9 +260,11 @@
 
 .boton5{
     position: none;
+    text-align: center;
+    list-style: none;
     background-color: gray;
-    font-size: 18px;
-    width: 125px;
+    font-size: 20px;
+    width: 140px;
     box-shadow: 4px -4px 24px;
     border-radius: 14px;
 
@@ -345,6 +354,9 @@
 .fila{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .motos{
     display: flex;
@@ -365,7 +377,9 @@
 }
 .fila{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    text-align: center;
+    
 }
 .motos{
     display: flex;
