@@ -1,5 +1,5 @@
-
 let productos =[];
+
 
 function cargarProductos() {
     ////imprimimos una info de la función
@@ -20,7 +20,7 @@ function cargarProductos() {
     console.log(producto);
     //guardamos el producto en el arreglo o data base
     productos.push(producto);
-
+    
     //guardo la info del array del producto
     //producto.push(nombreProducto)
     //producto.push(precioProducto)
@@ -42,17 +42,17 @@ const cargarTabla = () =>{
     for (let i = 0; i < productos.length; i++) {
     //crear elemento tr
     let fila = document.createElement('tr');
-
     //creamos un elemento td
     let celdaNombre = document.createElement('td');
-    //agregamos el dato a la celda el nombre del producto
+    let celdaPrecio = document.createElement('td');
+     //agregamos el dato a la celda el nombre del producto
     celdaNombre.textContent = 'MOTO'
+    celdaPrecio.textContent = '$7000000000'
     //subimos el td al tr
     fila.appendChild(celdaNombre)
+    fila.appendChild(celdaPrecio)
     //subimos el tr al tbody
     tabla.appendChild(fila)
-
-
 
         console.log(productos[i]);
     }
