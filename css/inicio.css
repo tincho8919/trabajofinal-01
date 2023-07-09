@@ -163,14 +163,12 @@
 .us{
     position: none;
     text-align: center;
-    margin-bottom: 50px;
 }
 .bottonfooter{
     position: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 100px;
     justify-content: space-around;
 }
 
