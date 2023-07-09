@@ -5,11 +5,12 @@
 1. usamos html y css lo enseñado en clase
 html codigos enseñados
 css codigos enseñados para que le de una imagen mejor a nuestro html
-2 javascript usamos javascript enseñado en clase funcion y dom aclaro que por no utilizar el console de la web
-solo es ilustrativo con un click cargar productos solo se crga por defaul(se todo lo aprendido en clase nomas que lo quize dejar asi 
-por estetica)
+2. javascipt se utiluzo variso conceptos enseñados en clases funcion dom etc..
 4.tiene muy buena funcionalidad en responsive design de mobil y table e pc
-*el usuario es:pepe@gmail.com 
+5.el login
+*el usuario es:Juan@gmail.com 
+
 la clave es:12345
+
 le dimos un alert de bienvenida y un alert de error donde te
 aloja a otra web

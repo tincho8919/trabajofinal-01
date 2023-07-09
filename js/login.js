@@ -1,6 +1,6 @@
 
 let administrador = {
-    userAdmin: 'pepe@gmail.com',
+    userAdmin: 'Juan@gmail.com',
     passAdmin: '12345'
 }
 
@@ -10,7 +10,7 @@ console.log(administrador.passAdmin);
 
 const loginAdmin = () => {
 
-    let userAdmin = 'pepe@gmail.com';
+    let userAdmin = 'Juan@gmail.com';
     let passAdmin = '12345';
 
     let userEmail = document.getElementById("emailLogin").value;
@@ -21,8 +21,8 @@ const loginAdmin = () => {
 
 
     if (administrador.userAdmin == userEmail && passAdmin == userPassword) {
-    alert('Bienvenido pepe');
-    window.location.href = '../page/compras.html';
+    alert('Bienvenido Juan');
+    window.location.href = '../page/carga.html';
     }else{
         alert('user o password incorrecta')
         window.location.href = '../page/error.html';
