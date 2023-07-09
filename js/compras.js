@@ -1,6 +1,5 @@
 let productos =[];
 
-
 function cargarProductos() {
     ////imprimimos una info de la función
     console.log(`tus productos se cargarno a la database`);
@@ -10,7 +9,6 @@ function cargarProductos() {
     let precioProducto = document.getElementById('precioProducto').value;
     //console.log(precioProducto);
     console.log(typeof precioProducto);
-    //productos.push('Pepas');
     //objetos jonso de productos
     let producto = {
         nombre: nombreProducto ,
@@ -21,15 +19,9 @@ function cargarProductos() {
     //guardamos el producto en el arreglo o data base
     productos.push(producto);
     
-    //guardo la info del array del producto
-    //producto.push(nombreProducto)
-    //producto.push(precioProducto)
 
     //imprimo el arreglo
     console.log(productos);
-    //imprimimos en la consola los datos del preoducto
-    //console.log(nombreProducto);
-    //console.log(precioProducto);
     //llamo a la funcion cargarProductos
     cargarTabla();
 }

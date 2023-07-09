@@ -6,7 +6,6 @@ window.onload = function(){
 } 
 
 
-
 let memoriaLocal = localStorage.getItem('Nombre');
 
 let misProductos = localStorage.getItem('Productos');

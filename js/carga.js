@@ -26,18 +26,12 @@ function cargarProductos() {
     //guardamos el producto en el arreglo o database
     productos.push(producto)
 
-    //guardamos la info en el array de productos
-    //productos.push(nombreProducto)
-    //productos.push(precioProducto)
-
     //imprimimos el arreglo
     console.log(productos);
 
     //utilizamos el localstorage
     localStorage.setItem('Nombre', 'Juan');
 
-    //guardamos productos
-    //localStorage.setItem('Productos', productos) - [object - object]
 
     //1. Creamos una variable para que podamos convertir los datos a JSON
     let misProductos = JSON.stringify(productos);
@@ -45,9 +39,6 @@ function cargarProductos() {
     //2. Le pasamos la variable al localStorage
     localStorage.setItem('Productos', misProductos);
     
-    //imprimimos en la consola los datos del producto
-    //console.log(nombreProducto);
-    //console.log(precioProducto);
 
     //llamo a la función cargarProductos
     cargarTabla();
@@ -61,7 +52,7 @@ const cargarTabla = () =>{
     let tabla = document.getElementById('tablaProductos');
 
 
-    //recorrer el arreglo productos
+    //recorrer el arreglo productos desde el 1 para que no cargue 2 veces
     for (let i = 1; i < productos.length; i++) {
 
         //crear un elemeto tr
