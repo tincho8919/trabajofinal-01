@@ -61,3 +61,10 @@ const cargarTabla = () =>{
 
 }
 
+function eliminarLista() {
+    console.log("tablaProductos");
+    let tr = document.getElementById("tablaProductos")
+    tr.remove();
+    
+}
+
