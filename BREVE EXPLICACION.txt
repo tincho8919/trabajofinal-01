@@ -7,7 +7,7 @@ html codigos enseñados
 css codigos enseñados para que le de una imagen mejor a nuestro html
 2. javascipt se utiluzo variso conceptos enseñados en clases funcion dom etc..
 4.tiene muy buena funcionalidad en responsive design de mobil y table e pc
-5.el login
+5.el login (data:los botones borrar datos andan tanto como el de las celdas como el de agregar producto)
 *el usuario es:Juan@gmail.com 
 
 la clave es:12345

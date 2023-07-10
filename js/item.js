@@ -60,7 +60,7 @@ const cargarTabla = () =>{
     }
 
 }
-
+// añadimos la funcion del boton borrar datos de  celdas de la tabla
 function eliminarLista() {
     let tr = document.getElementById("tablaProductos")
     tr.remove();
