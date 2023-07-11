@@ -64,6 +64,7 @@ const cargarTabla = () =>{
 function eliminarLista() {
     let tr = document.getElementById("tablaProductos")
     tr.remove();
-    
+        alert('eliminaste los items de la lista' )
+
 }
 
