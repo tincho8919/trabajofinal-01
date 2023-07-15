@@ -9,170 +9,33 @@
 .motos{
     display: flex;
     flex-direction: row;
-    background-color: black;
-    width: 100%;
-    
-
 }
 h2{
-    text-align: center;
     background-color: gray;
     
 }
 
-.moto1{
+.moto01{
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 3px;
     margin-top: 50px;
     font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
+    box-shadow: 1px 1px 2px blue;
     border-radius: 20px;
     background-color: beige;
     text-align: center;
-    width: 100%;
-    
-    
-}
-.moto2{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center;
-    width: 100%;
     
 }
-.moto3{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
+.modelo{
+    position: none;
+    padding-top: 60px;
     text-align: center;
-    width: 100%;
-    
-}
-.moto4{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center;
-    width: 100%;
-    
-}
-.moto5{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center;
-    width: 100%;
-    }
-    
-.moto6 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center;
-    width: 100%;
-}
-.moto7{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center;
-    width: 100%;
-}
-.moto8{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center;
-    width: 100%;
-    
-    }
 
-.moto9{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center;
-    width: 100%;
 }
-.moto10{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center;
-    width: 100%;
-}
-.moto11{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center;
-    width: 100%;
-}
-.moto12{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    margin-top: 50px;
-    font-size: 30px;
-    box-shadow: 0px 0px 4px blue;
-    border-radius: 20px;
-    background-color: beige;
-    text-align: center; 
-    width: 100%;
-}
-
 .button{
     position: none;
     background-color: rgb(121, 121, 31);;
@@ -206,6 +69,7 @@ h2{
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
+    color: white;
     
 }
 .color{
@@ -234,93 +98,25 @@ h2{
 
 }
 
-.boton2{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-    
 
-}
-
-.boton3{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
-}
-
-.boton4{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
-}
-
-.boton5{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: gray;
-    font-size: 20px;
-    width: 140px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
-}
 
 .line1{
     color: black;
     text-decoration: none;
 }
 
-.line2{
-    color: black;
-    text-decoration: none;
-}
-
-.line3{
-    color: black;
-    text-decoration: none;
-}
-
-.line4{
-    color: black;
-    text-decoration: none;
-}
-
-.line5{
-    color: black;
-    text-decoration: none;
-}
 
 
 .titulo{
     position: none;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 10px;
     color: rgb(121, 121, 31);
     font-size: 5.2rem;
 
 }
 
-.float{
-    
-}
+
 .floatiz{
     float: right;
     display: flex;

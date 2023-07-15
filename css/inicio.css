@@ -14,7 +14,6 @@
     margin-left: 10px;
     margin-top: 20px;
     filter: invert(74%) sepia(24%) saturate(1962%) hue-rotate(341deg) brightness(102%) contrast(95%);
-    
 }
 .logop{ 
     padding-left: 65px;
@@ -22,9 +21,7 @@
     font-size: 1.2rem;
     color: black;
     font-family: sans-serif;
-    
 }
-
 
 
 .fila{
@@ -32,18 +29,10 @@
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
+    color: white;
     
 }
-.boton0{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-}
+
 .boton1{
     position: none;
     text-align: center;
@@ -54,100 +43,58 @@
     box-shadow: 4px -4px 24px;
     border-radius: 14px;
 
-
-}
-
-.boton2{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-    
-
-}
-
-.boton3{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
-}
-
-.boton4{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
-}
-
-.boton5{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: gray;
-    font-size: 20px;
-    width: 140px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
 }
 
 
 .line1{
-    color: black;
+    color:black;
     text-decoration: none;
 }
 
-.line2{
-    color: black;
-    text-decoration: none;
-}
 
-.line3{
-    color: black;
-    text-decoration: none;
-}
-
-.line4{
-    color: black;
-    text-decoration: none;
-}
-
-.line5{
-    color: black;
-    text-decoration: none;
-}
-.line6{
-    color: black;
-    text-decoration: none;
-}
 
 
 .titulo{
     position: none;
     text-align: center;
-    padding-top: 60px;
-    color: rgb(121, 121, 31);
+    padding-top: 10px;
+    color: rgb(253, 228, 4);
     font-size: 5.2rem;
 
 }
 .carousel.slide{
-    position: none;
+    height: 600px;
+    margin-left: 8px;
+    
+}
+.motos{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.moto01{
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    margin-left: 3px;
+    margin-top: 50px;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px blue;
+    border-radius: 20px;
+    background-color: beige;
+    text-align: center;
+    
+}
+
+.button{
+    position: none;
+    background-color: rgb(121, 121, 31);;
+    font-size: 20px;
+    width: 150px;
+    box-shadow: 4px -4px 24px;
+    border-radius: 14px;
+    align-self: center;
     
     
 }
@@ -197,9 +144,9 @@
 }
 
 .carousel.slide{
-    flex-direction: column;
     position: none;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     
     
 }
@@ -210,6 +157,14 @@
     width: 100%;
     padding-left: 100px;
     padding-right: 100px;
+}
+.moto01{
+    display: flex;
+    flex-direction: column;
+}
+.motos{
+    display: flex;
+    flex-direction: column;
 }
 
 }
@@ -231,13 +186,17 @@
     
 }
 .carousel.slide{
-    flex-direction: column;
-    position: none;
-    width: 100%;
     
     
 }
-
+.moto01{
+    display: flex;
+    flex-direction: column;
+}
+.motos{
+    display: flex;
+    flex-direction: row;
+}
 }
 @media (min-width: 990px ) {
 
@@ -258,11 +217,18 @@
     
 }
 .carousel.slide{
-    flex-direction: column;
     position: none;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
     
     
 }
-
+.moto01{
+    display: flex;
+    flex-direction: column;
+}
+.motos{
+    display: flex;
+    flex-direction: row;
+}
 }

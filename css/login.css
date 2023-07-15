@@ -15,18 +15,10 @@
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
+    color: white;
     
 }
-.boton0{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-}
+
 .boton1{
     position: none;
     text-align: center;
@@ -40,79 +32,12 @@
 
 }
 
-.boton2{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-    
-
-}
-
-.boton3{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
-}
-
-.boton4{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
-}
-
-.boton5{
-    position: none;
-    text-align: center;
-    list-style: none;
-    background-color: gray;
-    font-size: 20px;
-    width: 140px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
-}
 
 .line1{
     color: black;
     text-decoration: none;
 }
 
-.line2{
-    color: black;
-    text-decoration: none;
-}
-
-.line3{
-    color: black;
-    text-decoration: none;
-}
-
-.line4{
-    color: black;
-    text-decoration: none;
-}
-
-.line5{
-    color: black;
-    text-decoration: none;
-}
 .color{
     background-color: darkgrey;
 }
