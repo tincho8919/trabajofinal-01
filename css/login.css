@@ -11,11 +11,12 @@
 
 
 .fila{
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
+    margin-top: 20px;
     
 }
 
@@ -24,11 +25,11 @@
     text-align: center;
     list-style: none;
     background-color: grey;
-    font-size: 20px;
-    width: 125px;
-    box-shadow: 4px -4px 24px;
-    border-radius: 14px;
-
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px grey;
 
 }
 
@@ -51,19 +52,15 @@
 
 }
 .logo{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
-    margin-top: 20px;
-    filter: invert(74%) sepia(24%) saturate(1962%) hue-rotate(341deg) brightness(102%) contrast(95%);
+    position: none;
+    width: 120px;
+    margin-left: 2px;
+
 }
-.logop{ 
-    padding-left: 65px;
-    padding-top: 20px;
-    font-size: 1.2rem;
-    color: black;
-    font-family: sans-serif;
+
+.d-flex{
+    position: none;
+    margin-right: 60px;
 }
 
 .color{
@@ -76,6 +73,7 @@
 .copy{
     position: none;
     text-align: center;
+    margin-top: 20px;
 }
 
 .us{
