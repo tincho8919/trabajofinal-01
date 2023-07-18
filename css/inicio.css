@@ -19,11 +19,7 @@
     position: none;
     margin-right: 50px;
 }
-.logo1{
-    width: 50px;
-    margin-left: 10px;
-    filter: invert(63%) sepia(19%) saturate(3921%) hue-rotate(358deg) brightness(100%) contrast(103%);
-}
+
 .logop{
     position: none;
     display: flex;
