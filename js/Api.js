@@ -24,8 +24,11 @@ getCharacters(Date => {
 
         </div>
         <h2>"${personaje.name}"</h2>
+
+        <h2">${personaje.species}</"h2>
+
         <samp>"${personaje.status}"</samp>
-        <samp>"${personaje.species}"</samp>
+        
     </article>`
         
         );
