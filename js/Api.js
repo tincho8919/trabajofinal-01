@@ -16,7 +16,7 @@ getCharacters(Date => {
     console.log(Date);
     //construlyo con el foreach que recorra todos los pj
     Date.results.forEach(personaje => {
-        //con la constante agrego todo en la web img , status, name, etc.
+        //con la constante agrego todo en la web img , status, name,species...
         const article = document.createRange().createContextualFragment(`
         <article>
         <div class="image-container">
