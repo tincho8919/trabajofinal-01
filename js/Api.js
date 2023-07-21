@@ -5,7 +5,7 @@
 function getCharacters(done) {
     //agrego en la constante la api
     const results = fetch('https://rickandmortyapi.com/api/character')
-// agrego el then y paso cambio de Json
+// agrego el then y paso cambio a Json
     results
         .then(Response => Response.json())
         .then(Date => { done(Date) })
