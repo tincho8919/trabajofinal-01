@@ -38,64 +38,73 @@
 }
 .nombre{
     position: none;
-    text-align: center;
     padding-top: 20px;
     font-size: 20px;
 }
 .apellido{
     position: none;
-    text-align: center;
     padding-top: 20px;
     font-size: 20px;
     
 }
 .email{
     position: none;
-    text-align: center;
     padding-top: 20px;
     font-size: 20px;
+    padding-left: 20px;
     
 }
 .edad{
     position: none;
-    text-align: center;
     padding-top: 20px;
     font-size: 20px;
+    padding-right: 140px;
 }
 .fecha{
     position: none;
-    text-align: center;
     padding-top: 20px;
     font-size: 20px;
+    padding-right: 80px;
     
 }
 
 .genero{
     position: none;
-    text-align: center;
     padding-top: 20px;
     font-size: 20px;
     
 }
 .aceptar{
+    
     position: none;
-    text-align: center;
     padding-top: 20px;
     font-size: 20px;
+    text-align: center;
     
 }
 .enviar{
     position: none;
-    text-align: center;
+    list-style: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-top: 5px;
     padding-top: 20px;
-    font-size: 20px;
 }
 .reset{
-    position: none;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 20px;
     
+    position: none;
+    list-style: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-top: 5px;
+    padding-top: 20px;
+    
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .boton1{
