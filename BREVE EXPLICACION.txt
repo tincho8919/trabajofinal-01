@@ -12,5 +12,9 @@ css codigos enseñados para que le de una imagen mejor a nuestro html
 
 la clave es:12345
 
+6.hay dos formularios uno de cuenta y el otro de contactos... el de ligin esta hecho total a lo que me enseñaron
+el segundo solo muestra en consola(tener cuidado con las linesas rojas al lenar el formulario)
+7.la api
+
 le dimos un alert de bienvenida y un alert de error donde te
 aloja a otra web

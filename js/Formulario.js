@@ -26,22 +26,4 @@ let addDatos = () =>{
 
 enviar.addEventListener('click', addDatos)
 
-/* let personas =['#nombre','#apellido', '#email', '#nombre', '#edad','#acuerdo','#texto']
-
-function nuevos(NuevoUser) {
-
-    var personas = Lista();
-    personas.push(NuevoUser)
-    console.log(personas);
-    localStorage.setItem('personas',JSON.stringify(personas));
-}
-
-function Lista() {
-    var NuevasPersonas = JSON.parse(localStorage.getItem('NuevasPersonas'))
-    if (personas == null) {
-        NuevasPersonas = personas
-    }
-
-    return NuevasPersonas;
-} */
 
