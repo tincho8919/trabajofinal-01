@@ -1,7 +1,5 @@
 
-
-//creo la funcion
-
+ //creo la funcion
 function getCharacters(done) {
     //agrego en la constante la api
     const results = fetch('https://rickandmortyapi.com/api/character')
@@ -27,7 +25,7 @@ getCharacters(Date => {
 
         <h2">${personaje.species}</"h2>
 
-        <samp>"${personaje.status}"</samp>
+        <h2>"${personaje.status}"</h2>
         
     </article>`
         
@@ -38,4 +36,4 @@ getCharacters(Date => {
         main.append(article)
 
     })
-})
+}) 
